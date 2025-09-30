@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Censura Anti-Aranha",
+  "version": "1.0",
+  "description": "Uma extensão para censurar imagens de aranhas e proteger usuários que possuem aracnofobia. Por Sindi Kali e M4tt Pizz4",
+  
+  "icons": {
+    "16": "icone16.png",
+    "48": "icone48.png",
+    "128": "icone128.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
