@@ -21,7 +21,7 @@
       <a href="#" title="Foto de Sindi">
         <img src="https://avatars.githubusercontent.com/u/185273479?v=4" width="100px;" alt="Foto de Sindi"/><br>
         <sub>
-          <b>Mateus</b>
+          <b>Sindi Kali</b>
         </sub>
       </a>
     </td>
