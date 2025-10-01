@@ -12,11 +12,11 @@ function censorImages() {
         const shouldCensor = keywords.some(keyword => altText.includes(keyword) || srcText.includes(keyword));
 
         if (shouldCensor) {
-            console.log("Aranha encontrada! Censurando imagem:", img.src);
             img.style.filter = "blur(30px)";
             img.style.border = "3px solid red";
         }
     });
 }
+
 
 censorImages();
